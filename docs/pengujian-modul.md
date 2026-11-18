@@ -28,3 +28,17 @@ Tes integrasi memeriksa inventori milik pengguna, hubungan makanan dengan
 penawaran, serta pemrosesan pengingat setelah transaksi berhasil. Berkas
 `FoodItem/tests.py` masih berupa kerangka; gunakan `FoodItem.test_integration`
 untuk memilih skenario integrasi yang sudah tersedia.
+
+## Location
+
+```powershell
+python manage.py test Location.tests --noinput
+```
+
+Cakupannya meliputi kepemilikan lokasi, validasi koordinat, lokasi bawaan,
+lokasi yang digunakan penawaran, data peta publik, dan penanganan geocoding.
+Tes layanan menggunakan simulasi respons Nominatim; hasil tes tidak membuktikan
+layanan eksternal atau izin GPS browser sedang berfungsi.
+
+Untuk pengujian browser dan seluruh aplikasi, ikuti
+[panduan integrasi](integrasi.md#7-migrasi-dan-pengujian).
