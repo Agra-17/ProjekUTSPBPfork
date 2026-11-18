@@ -143,3 +143,5 @@ https://www.figma.com/design/r3aIEwY6EmWnxDocq8Rrl3/Projek-PBP-B12?node-id=0-1&t
 ## Panduan integrasi terbaru
 
 Alur akun/email, lokasi tersimpan + GPS, inventori, penawaran, peta, pengingat, migrasi, dan pengujian dijelaskan dalam [docs/integrasi.md](docs/integrasi.md).
+
+Untuk memilih tes tanpa browser berdasarkan modul, lihat [panduan pengujian per modul](docs/pengujian-modul.md).
