@@ -17,3 +17,14 @@ python manage.py test userprofile.tests userprofile.test_auth userprofile.test_p
 Cakupannya meliputi registrasi, login/logout, perubahan profil, penghapusan akun,
 integrasi lintas modul, dan migrasi lokasi bawaan. Lihat juga
 [dokumentasi UserProfile](../userprofile/AI_DISCLOSURE.md).
+
+## FoodItem
+
+```powershell
+python manage.py test FoodItem.test_integration --noinput
+```
+
+Tes integrasi memeriksa inventori milik pengguna, hubungan makanan dengan
+penawaran, serta pemrosesan pengingat setelah transaksi berhasil. Berkas
+`FoodItem/tests.py` masih berupa kerangka; gunakan `FoodItem.test_integration`
+untuk memilih skenario integrasi yang sudah tersedia.
